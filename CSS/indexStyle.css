@@ -1,0 +1,157 @@
+.heading{
+    font-family: 'Nanum Myeongjo', serif;
+    padding: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(63, 61, 61, 0.267);
+    width: 100%;
+}
+
+li {
+    float: left;
+    margin-left: 45px;
+    margin-right: -30px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(211, 211, 211, 0.541);
+}
+
+#headingImage{
+    width: 100%;
+}
+
+.section1{
+    text-align: center;
+    background-color:rgb(172, 151, 125);
+    width: 100%;
+    padding: 50px;
+}
+.section1 h1{
+    font-size: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section2{
+    background-color: rgba(119, 95, 63, 0.938);
+    color: white;
+    text-align: center;
+    padding: 90px;
+    
+}
+
+.section2 p{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.section3{
+    text-align: center;
+    padding: 90px;
+}
+
+.section3 p{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+.pictures{
+    background-color: rgba(63, 61, 61, 0.267);
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -50px;
+    margin-bottom: -90px;
+    border: 2px solid black;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+}
+
+.information
+{
+    background-color: rgba(63, 61, 61, 0.267);
+    margin: 50px;   
+    border-radius: 5px;
+    padding: 20px;
+    margin: 60px;
+    margin-top: -115px;
+    margin-left: 700px;
+    border: 3px solid black;
+    width: 50%;
+    font-size: 10px;
+    margin-bottom: 120px;
+}
+
+.detail
+{
+ margin: 50px;
+ text-align: center;
+}
+
+
+input, select
+{
+  width: 100%;
+  border: 0.5px solid black;
+}
+
+/* all input boxes are the same size -  
+includes the padding and border in an element's total width and height 
+*/
+*{
+  box-sizing: border-box;
+}
+
+#submit, select, input
+{
+  padding: 10px 15px;
+  margin: 2px 0px;
+  border-radius: 5px;
+}
+
+#submit 
+{
+  width: 100%;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: 0.5px solid black;
+}
+
+#submit:hover
+{
+  background-color: rgba(63, 61, 61, 0.267);
+  color: black;
+}
+
+#contactInfo{
+    text-align: center;
+    margin-left: -770px;
+    margin-bottom: -300px;
+}
+
+#contactInfo {
+    margin-top:350px;
+}

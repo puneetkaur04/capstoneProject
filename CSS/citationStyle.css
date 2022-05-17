@@ -1,0 +1,64 @@
+.heading{
+    font-family: 'Nanum Myeongjo', serif;
+    padding: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(63, 61, 61, 0.267);
+    width: 100%;
+}
+
+li {
+    float: left;
+    margin-left: 45px;
+    margin-right: -30px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(211, 211, 211, 0.541);
+}
+
+.section1{
+    background-color: rgba(63, 61, 61, 0.267);
+    height: 725px;
+}
+.firstPart h1, h6{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.firstPart p{
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 30px;
+    text-indent: -2em;
+}
+
+.firstPart{
+    margin-bottom: 170px;
+}
+
+#arrow{
+    position: relative;
+    right: 63%;
+    left: 48%;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+}
